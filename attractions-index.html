@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Attractions Information</title>
+    <link rel="stylesheet" href="css/cssReset.css">
+    <!-- font-awesome的CND -->
+    <script src="https://use.fontawesome.com/771d69edc4.js"></script>
+    <link rel="stylesheet" href="css/attraction_layout.css">
+</head>
+<body>
+    <div class="allWrapper">
+        <header>
+            <h1>高雄旅遊資訊</h1>
+            <div class="searchBlock">
+                <select name="search" id="searchPlace">
+                    <option value="請選擇行政區">-- 請選擇行政區 --</option>
+                </select>
+            </div>
+            <div class="hotBlock">
+                <p>熱門行政區</p>
+                <input type="button" value="苓雅區">
+                <input type="button" value="三民區">
+                <input type="button" value="美濃區">
+                <input type="button" value="岡山區">
+            </div>
+            <div class="line">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-1x" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down fa-stack-1x" aria-hidden="true"></i>
+                </span>
+            </div>
+        </header>
+        <main>
+            <h2 class="placeTitle"></h2>
+            <ul class="placeList">
+                <!-- <li class="placeInfo">
+                    <section class="infoTop" style="background:url('http://khh.travel/FileArtPic.ashx?id=705&w=1280&h=960');">
+                        <h3>高雄願景館</h3>
+                        <small>三民區</small>
+                    </section>
+                    <section class="infoBottom">
+                        <p>
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <span>週二至週日10:00-18:00，每週一公休</span>
+                        </p>
+                        <p>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>高雄市三民區建國二路318號</span>
+                        </p>
+                        <p>
+                            <span><i class="fa fa-mobile" aria-hidden="true"></i>886-7-2363357</span>
+                            <span class="tag"><i class="fa fa-tag" aria-hidden="true"></i>免費參觀</span>
+                        </p>
+                    </section>
+                </li> -->
+            </ul>
+        </main>
+        <footer>
+            <p>高雄旅遊網</p>
+            <p>資料來源：高雄市政府</p>
+        </footer>
+        <div class="goTop">
+            <a href="#"><img src="image/btn_goTop.png"></a>
+        </div>
+    </div>
+    <script src="js/attraction_script.js"></script>
+</body>
+</html>

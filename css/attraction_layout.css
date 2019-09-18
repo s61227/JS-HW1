@@ -1,0 +1,206 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.allWrapper{
+    width: 100%;
+    font-family: '微軟正黑體',sans-serif;
+}
+select,option,input{
+    font-family: '微軟正黑體',sans-serif;
+}
+
+/* header區 ====================================== */
+header{
+    background: url(../image/the-urban-landscape.png) no-repeat center;
+    background-size: 100% auto;
+    object-fit: cover;
+    padding-top: 90px;
+    box-sizing: border-box;
+    max-height: 380px;
+}
+header h1{
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+    text-align: center;
+}
+header div{
+    
+}
+.searchBlock{
+    padding: 100px 0 80px;
+    text-align: center;
+}
+.searchBlock select{
+    background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    padding: 0 15px;
+    width: 452px;
+    height: 48px;
+    outline: none;
+    font-size: 18px;
+    color: #000000;
+    line-height: 21px;
+    font-weight: bold;
+}
+.searchBlock select option{
+    
+}
+.hotBlock{
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;
+    width: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px 26px;
+}
+.hotBlock p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.hotBlock input{
+    font-size: 20px;
+    color:#ffffff;
+    text-align: center;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 14px 0 0 25px;
+}
+.hotBlock input:nth-of-type(1){
+    background-color: #8A82CC;
+}
+.hotBlock input:nth-of-type(2){
+    background-color: #FFA782;;
+}
+.hotBlock input:nth-of-type(3){
+    background-color: #F5D005;
+}
+.hotBlock input:nth-of-type(4){
+    background-color: #559AC8;
+}
+.line{
+    text-align: center;
+    margin: 35px 0 65px;
+    color:#559AC8;
+}
+.line span{
+    width: 25px;
+}
+.line span .fa-circle-thin{ font-size: 25px;}
+.line span .fa-caret-down{ font-size: 18px;}
+.line::before{
+    content: "------------------------------";
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.line::after{
+    content: "------------------------------";
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+/* main區 ======================================== */
+main{
+    max-width: 1024px;
+    margin: 240px auto 0 auto;
+}
+main h2{
+    font-size: 36px;
+    color: #8A82CC;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+main ul{
+    width: 944px;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main ul li{
+    width: 464px;
+    margin-bottom: 36px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+.placeInfo{}
+.placeInfo section{}
+
+.infoTop{
+    height: 155px;
+    /* background: url("http://khh.travel/FileArtPic.ashx?id=705&w=1280&h=960"); */
+    background-size: 100% auto;
+    object-fit: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.infoTop h3{
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    bottom:14px;
+}
+.infoTop small{
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 24px;
+    bottom:14px;
+}
+
+.infoBottom{
+    min-height: 118px;
+    color: #000000;
+    padding:0 24px;
+}
+.infoBottom p{
+    margin: 16px 0;
+    font-size: 16px;
+    display: flex;
+    line-height: 22px;
+}
+.infoBottom p span i{
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    text-align: center;
+}
+.infoBottom p:nth-of-type(3){
+    justify-content: space-between;
+}
+.fa-clock-o{ color: #8A82CC; }
+.fa-map-marker{ color: #FFA782; }
+.fa-mobile{ color: #559AC8; }
+.fa-tag{ color: #F5D005 }
+
+/* footer區 ====================================== */
+footer{
+    background-color: #559AC8;
+    padding: 25px 0 10px;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color:#ffffff;
+    margin-bottom: 15px;
+}
+footer p:last-child{
+    color: #FFD366;
+}
+.goTop{
+    position: fixed;
+    bottom:100px;
+    right: 12%;
+}
